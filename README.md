@@ -1,4 +1,4 @@
 # innovation-at-play
-Landing page for Innovation at Play
+Landing page for Launchlab
 
-https://aido179.github.io/innovation-at-play/
+https://aido179.github.io/launchlab/
