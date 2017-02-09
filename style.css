@@ -59,10 +59,10 @@ a{
 }
 
 .banner {
-    background: transparent url('play.jpg') 0 0 no-repeat fixed;
+    background: transparent url('banner.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../play.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../banner.jpg', sizingMethod='scale');
     height: 300px;
     width: 100%;
     margin-bottom: 3em;
@@ -73,7 +73,7 @@ a{
     display: table-cell;
     vertical-align: middle;
     margin-bottom: 0;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
     font-weight: 500;
     text-shadow: 0 1px 1px black;
@@ -104,6 +104,26 @@ td{
   padding:1em;
 }
 
+.week{
+  background-color: #efefef;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  margin-bottom: 2em;
+  margin-top:2em;
+}
+.week h2{
+  display: block;
+  padding-bottom: 0.3em;
+  border-bottom: #a7a7a7 1px solid;
+}
+.week ul{
+  font-weight: 200;
+}
+.instructors{
+  font-size:0.8em;
+  color:#3e3e3e;
+}
+
 
 .bigButton {
   display:block;
@@ -118,11 +138,18 @@ td{
 }
 
 .bigButton {
-    background: rgb(66, 184, 221);
+    background: #630660;
 }
 .bigButton:hover {
     background: #1b7996;
 }
+.disabled{
+  background: rgb(100,100,100);
+}
+.disabled:hover {
+    background: rgb(100,100,100);
+}
+
 .footer{
   box-sizing: border-box;
   width:100%;
