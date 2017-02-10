@@ -62,7 +62,6 @@ a{
 }
 
 .banner {
-    background: transparent url('banner.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../banner.jpg', sizingMethod='scale');
@@ -71,6 +70,23 @@ a{
     margin-bottom: 3em;
     display: table;
 }
+.banner-default{
+  background: transparent url('banner.jpg') 0 0 no-repeat fixed;
+  background-size: cover;
+}
+.banner-fintech{
+  background: transparent url('banner-fintech.jpg') 0 0 no-repeat fixed;
+  background-size: cover;
+}
+.banner-socialsim{
+  background: transparent url('banner-socialsim.jpg') 0 0 no-repeat fixed;
+  background-size: cover;
+}
+.banner-ideation{
+  background: transparent url('banner-ideation.jpg') 0 0 no-repeat fixed;
+  background-size: cover;
+}
+
 
 .banner-head {
     display: table-cell;
