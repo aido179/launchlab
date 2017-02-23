@@ -64,26 +64,26 @@ a{
 .banner {
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../banner.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../img/banner.jpg', sizingMethod='scale');
     height: 300px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
 }
 .banner-default{
-  background: transparent url('banner.jpg') 0 0 no-repeat fixed;
+  background: transparent url('img/banner.jpg') 0 0 no-repeat fixed;
   background-size: cover;
 }
 .banner-fintech{
-  background: transparent url('banner-fintech.jpg') 0 0 no-repeat fixed;
+  background: transparent url('img/banner-fintech.jpg') 0 0 no-repeat fixed;
   background-size: cover;
 }
 .banner-socialsim{
-  background: transparent url('banner-socialsim.jpg') 0 0 no-repeat fixed;
+  background: transparent url('img/banner-socialsim.jpg') 0 0 no-repeat fixed;
   background-size: cover;
 }
 .banner-ideation{
-  background: transparent url('banner-ideation.jpg') 0 0 no-repeat fixed;
+  background: transparent url('img/banner-ideation.jpg') 0 0 no-repeat fixed;
   background-size: cover;
 }
 
