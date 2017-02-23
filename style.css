@@ -168,15 +168,19 @@ td{
 
 .bigButton {
     background: #630660;
+    color: white;
 }
 .bigButton:hover {
-    background: #1b7996;
+    background: #1b7996 !important;
+    color: white;
 }
 .disabled{
-  background: rgb(100,100,100);
+  background: rgb(100,100,100) !important;
+  color: white;
 }
 .disabled:hover {
-    background: rgb(100,100,100);
+    background: rgb(100,100,100) !important;
+    color: white;
 }
 
 .footer{
